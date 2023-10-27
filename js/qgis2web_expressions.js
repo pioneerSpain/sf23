@@ -754,17 +754,3 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
-
-
-
-function exp_label_MSPioneer_6_eval_expression(context) {
-    // concat(PIONEER, '%')
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return fnc_concat([feature.properties['PIONEER'] ,'%'], context);
-    } else {
-        return fnc_concat([feature['PIONEER'] ,'%'], context);
-    }
-}

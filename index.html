@@ -146,8 +146,7 @@
                         <td colspan="2">' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">LIDER</th>\
-                        <td>' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['LIDER_SUP_'] !== null ? autolinker.link(feature.properties['LIDER_SUP_'].toLocaleString()) : '') + '</td>\
@@ -185,7 +184,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(214,60,39,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Barato':
@@ -200,7 +199,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(141,156,255,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Cargill':
@@ -215,7 +214,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(77,161,240,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Corteva':
@@ -230,7 +229,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(3,130,24,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Fitó':
@@ -245,7 +244,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(229,80,117,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Koipesol':
@@ -260,7 +259,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(231,124,231,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Lidea':
@@ -275,7 +274,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(13,205,84,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Limagrain':
@@ -290,7 +289,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(221,28,48,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Mas Seed':
@@ -305,7 +304,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(231,120,190,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Mirasol':
@@ -320,7 +319,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(45,202,160,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Pioneer':
@@ -335,7 +334,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(18,131,48,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Ragt':
@@ -350,7 +349,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(77,96,207,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'RAGT':
@@ -365,7 +364,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(175,83,231,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Strube':
@@ -380,7 +379,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(212,189,37,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'Syngenta':
@@ -395,7 +394,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(1,111,255,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 default:
@@ -410,7 +409,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(226,134,47,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
             }
@@ -420,7 +419,7 @@
         map.getPane('pane_LiderMercado_1').style['mix-blend-mode'] = 'normal';
         var layer_LiderMercado_1 = new L.geoJson(json_LiderMercado_1, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_LiderMercado_1',
             layerName: 'layer_LiderMercado_1',
             pane: 'pane_LiderMercado_1',
@@ -483,8 +482,7 @@
                         <td colspan="2">' + (feature.properties['PIONEER%'] !== null ? autolinker.link(feature.properties['PIONEER%'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">SUPERFICIE</th>\
-                        <td>' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
@@ -524,7 +522,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,245,240,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 50.000000 && feature.properties['SUPERFICIE'] <= 100.000000 ) {
@@ -539,7 +537,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,227,215,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 100.000000 && feature.properties['SUPERFICIE'] <= 250.000000 ) {
@@ -554,7 +552,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,198,175,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 250.000000 && feature.properties['SUPERFICIE'] <= 500.000000 ) {
@@ -569,7 +567,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,164,135,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 500.000000 && feature.properties['SUPERFICIE'] <= 750.000000 ) {
@@ -584,7 +582,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,129,97,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 750.000000 && feature.properties['SUPERFICIE'] <= 1000.000000 ) {
@@ -599,7 +597,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(248,93,66,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 1000.000000 && feature.properties['SUPERFICIE'] <= 2500.000000 ) {
@@ -614,7 +612,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(235,54,42,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 2500.000000 && feature.properties['SUPERFICIE'] <= 5000.000000 ) {
@@ -629,7 +627,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(204,24,29,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 5000.000000 && feature.properties['SUPERFICIE'] <= 10000.000000 ) {
@@ -644,7 +642,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(169,15,21,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 10000.000000 && feature.properties['SUPERFICIE'] <= 52000.000000 ) {
@@ -659,7 +657,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(103,0,13,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
         }
@@ -668,7 +666,7 @@
         map.getPane('pane_SuperficieTotal_2').style['mix-blend-mode'] = 'normal';
         var layer_SuperficieTotal_2 = new L.geoJson(json_SuperficieTotal_2, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_SuperficieTotal_2',
             layerName: 'layer_SuperficieTotal_2',
             pane: 'pane_SuperficieTotal_2',
@@ -746,8 +744,7 @@
                         <td colspan="2">' + (feature.properties['DIF_PIONEE'] !== null ? autolinker.link(feature.properties['DIF_PIONEE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">DIF_PION_1</th>\
-                        <td>' + (feature.properties['DIF_PION_1'] !== null ? autolinker.link(feature.properties['DIF_PION_1'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['DIF_PION_1'] !== null ? autolinker.link(feature.properties['DIF_PION_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['layer'] !== null ? autolinker.link(feature.properties['layer'].toLocaleString()) : '') + '</td>\
@@ -772,7 +769,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(0,68,27,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -40000.000000 && feature.properties['DIF_PION_1'] <= -30000.000000 ) {
@@ -787,7 +784,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(3,112,46,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -30000.000000 && feature.properties['DIF_PION_1'] <= -20000.000000 ) {
@@ -802,7 +799,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(35,140,69,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -20000.000000 && feature.properties['DIF_PION_1'] <= -10000.000000 ) {
@@ -817,7 +814,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(61,167,90,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -10000.000000 && feature.properties['DIF_PION_1'] <= -5000.000000 ) {
@@ -832,7 +829,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(102,189,111,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -5000.000000 && feature.properties['DIF_PION_1'] <= -2500.000000 ) {
@@ -847,7 +844,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(142,209,140,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -2500.000000 && feature.properties['DIF_PION_1'] <= -1000.000000 ) {
@@ -862,7 +859,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(178,224,171,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -1000.000000 && feature.properties['DIF_PION_1'] <= -500.000000 ) {
@@ -877,7 +874,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(208,237,202,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -500.000000 && feature.properties['DIF_PION_1'] <= -100.000000 ) {
@@ -892,7 +889,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(232,246,227,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PION_1'] >= -100.000000 && feature.properties['DIF_PION_1'] <= 0.000000 ) {
@@ -907,7 +904,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(247,252,245,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
         }
@@ -916,7 +913,7 @@
         map.getPane('pane_DiferenciaconTotalSuperficie_3').style['mix-blend-mode'] = 'normal';
         var layer_DiferenciaconTotalSuperficie_3 = new L.geoJson(json_DiferenciaconTotalSuperficie_3, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_DiferenciaconTotalSuperficie_3',
             layerName: 'layer_DiferenciaconTotalSuperficie_3',
             pane: 'pane_DiferenciaconTotalSuperficie_3',
@@ -991,8 +988,7 @@
                         <td colspan="2">' + (feature.properties['PIONEER_SU'] !== null ? autolinker.link(feature.properties['PIONEER_SU'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">DIF_PIONEE</th>\
-                        <td>' + (feature.properties['DIF_PIONEE'] !== null ? autolinker.link(feature.properties['DIF_PIONEE'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['DIF_PIONEE'] !== null ? autolinker.link(feature.properties['DIF_PIONEE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['DIF_PION_1'] !== null ? autolinker.link(feature.properties['DIF_PION_1'].toLocaleString()) : '') + '</td>\
@@ -1020,7 +1016,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(215,25,28,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -6450.000000 && feature.properties['DIF_PIONEE'] <= -3500.000000 ) {
@@ -1035,7 +1031,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(232,91,58,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -3500.000000 && feature.properties['DIF_PIONEE'] <= -2000.000000 ) {
@@ -1050,7 +1046,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(249,158,89,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -2000.000000 && feature.properties['DIF_PIONEE'] <= -1500.000000 ) {
@@ -1065,7 +1061,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(254,201,129,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -1500.000000 && feature.properties['DIF_PIONEE'] <= -1000.000000 ) {
@@ -1080,7 +1076,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,237,171,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -1000.000000 && feature.properties['DIF_PIONEE'] <= -750.000000 ) {
@@ -1095,7 +1091,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(236,247,173,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -750.000000 && feature.properties['DIF_PIONEE'] <= -500.000000 ) {
@@ -1110,7 +1106,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(196,230,135,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -500.000000 && feature.properties['DIF_PIONEE'] <= -250.000000 ) {
@@ -1125,7 +1121,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(151,210,101,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -250.000000 && feature.properties['DIF_PIONEE'] <= -100.000000 ) {
@@ -1140,7 +1136,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(88,180,83,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['DIF_PIONEE'] >= -100.000000 && feature.properties['DIF_PIONEE'] <= 0.000000 ) {
@@ -1155,7 +1151,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(26,150,65,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
         }
@@ -1164,7 +1160,7 @@
         map.getPane('pane_DiferenciaVSLder_4').style['mix-blend-mode'] = 'normal';
         var layer_DiferenciaVSLder_4 = new L.geoJson(json_DiferenciaVSLder_4, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_DiferenciaVSLder_4',
             layerName: 'layer_DiferenciaVSLder_4',
             pane: 'pane_DiferenciaVSLder_4',
@@ -1227,8 +1223,7 @@
                         <td colspan="2">' + (feature.properties['PIONEER'] !== null ? autolinker.link(feature.properties['PIONEER'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">SUPERFICIE</th>\
-                        <td>' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
@@ -1268,7 +1263,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,245,240,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 50.000000 && feature.properties['SUPERFICIE'] <= 100.000000 ) {
@@ -1283,7 +1278,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,227,215,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 100.000000 && feature.properties['SUPERFICIE'] <= 250.000000 ) {
@@ -1298,7 +1293,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,198,175,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 250.000000 && feature.properties['SUPERFICIE'] <= 500.000000 ) {
@@ -1313,7 +1308,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,164,135,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 500.000000 && feature.properties['SUPERFICIE'] <= 750.000000 ) {
@@ -1328,7 +1323,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,129,97,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 750.000000 && feature.properties['SUPERFICIE'] <= 1000.000000 ) {
@@ -1343,7 +1338,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(248,93,66,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 1000.000000 && feature.properties['SUPERFICIE'] <= 2500.000000 ) {
@@ -1358,7 +1353,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(235,54,42,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 2500.000000 && feature.properties['SUPERFICIE'] <= 5000.000000 ) {
@@ -1373,7 +1368,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(204,24,29,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 5000.000000 && feature.properties['SUPERFICIE'] <= 10000.000000 ) {
@@ -1388,7 +1383,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(169,15,21,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
             if (feature.properties['SUPERFICIE'] >= 10000.000000 && feature.properties['SUPERFICIE'] <= 52000.000000 ) {
@@ -1403,7 +1398,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(103,0,13,1.0)',
-                interactive: true,
+                interactive: false,
             }
             }
         }
@@ -1412,7 +1407,7 @@
         map.getPane('pane_SuperficieTotal_5').style['mix-blend-mode'] = 'normal';
         var layer_SuperficieTotal_5 = new L.geoJson(json_SuperficieTotal_5, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_SuperficieTotal_5',
             layerName: 'layer_SuperficieTotal_5',
             pane: 'pane_SuperficieTotal_5',
@@ -1439,65 +1434,43 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['INSPIREID'] !== null ? autolinker.link(feature.properties['INSPIREID'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['COUNTRY'] !== null ? autolinker.link(feature.properties['COUNTRY'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NATLEV'] !== null ? autolinker.link(feature.properties['NATLEV'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NATLEVNAME'] !== null ? autolinker.link(feature.properties['NATLEVNAME'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NATCODE'] !== null ? autolinker.link(feature.properties['NATCODE'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['NAMEUNIT'] !== null ? autolinker.link(feature.properties['NAMEUNIT'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['CODNUT1'] !== null ? autolinker.link(feature.properties['CODNUT1'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">MUNICIPIO</th>\
+                        <td>' + (feature.properties['MUNICIPIO'] !== null ? autolinker.link(feature.properties['MUNICIPIO'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['CODNUT2'] !== null ? autolinker.link(feature.properties['CODNUT2'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['CODNUT3'] !== null ? autolinker.link(feature.properties['CODNUT3'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['MUNICIPIO'] !== null ? autolinker.link(feature.properties['MUNICIPIO'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['LIDERPor'] !== null ? autolinker.link(feature.properties['LIDERPor'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">LIDERPor</th>\
+                        <td>' + (feature.properties['LIDERPor'] !== null ? autolinker.link(feature.properties['LIDERPor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">PIONEER</th>\
                         <td>' + (feature.properties['PIONEER'] !== null ? autolinker.link(feature.properties['PIONEER'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">SUPERFICIE</th>\
+                        <td>' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(feature.properties['SUPERFICIE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">LIDER</th>\
+                        <td>' + (feature.properties['LIDER'] !== null ? autolinker.link(feature.properties['LIDER'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['LIDER_SUP_'] !== null ? autolinker.link(feature.properties['LIDER_SUP_'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">LIDER_SUP_</th>\
+                        <td>' + (feature.properties['LIDER_SUP_'] !== null ? autolinker.link(feature.properties['LIDER_SUP_'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['PIONEER_SU'] !== null ? autolinker.link(feature.properties['PIONEER_SU'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">PIONEER_SU</th>\
+                        <td>' + (feature.properties['PIONEER_SU'] !== null ? autolinker.link(feature.properties['PIONEER_SU'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['DIF_PIONEE'] !== null ? autolinker.link(feature.properties['DIF_PIONEE'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">DIF_PIONEE</th>\
+                        <td>' + (feature.properties['DIF_PIONEE'] !== null ? autolinker.link(feature.properties['DIF_PIONEE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['DIF_PION_1'] !== null ? autolinker.link(feature.properties['DIF_PION_1'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['layer'] !== null ? autolinker.link(feature.properties['layer'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['path'] !== null ? autolinker.link(feature.properties['path'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">DIF_PION_1</th>\
+                        <td>' + (feature.properties['DIF_PION_1'] !== null ? autolinker.link(feature.properties['DIF_PION_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -1822,19 +1795,6 @@
         var baseMaps = {};
         L.control.layers(baseMaps,{'MS Pioneer<br /><table><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_050.png" /></td><td>0 - 5</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_5101.png" /></td><td>5 - 10</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_10152.png" /></td><td>10 - 15</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_15203.png" /></td><td>15 - 20</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_20254.png" /></td><td>20 - 25</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_25305.png" /></td><td>25 - 30</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_30356.png" /></td><td>30 - 35</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_35407.png" /></td><td>35 - 40</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_40458.png" /></td><td>40 - 45</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_45509.png" /></td><td>45 - 50</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_505510.png" /></td><td>50 - 55</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_556011.png" /></td><td>55 - 60</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_606512.png" /></td><td>60 - 65</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_657013.png" /></td><td>65 - 70</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_707514.png" /></td><td>70 - 75</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_758015.png" /></td><td>75 - 80</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_808516.png" /></td><td>80 - 85</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_859017.png" /></td><td>85 - 90</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_909518.png" /></td><td>90 - 95</td></tr><tr><td style="text-align: center;"><img src="legend/MSPioneer_6_9510019.png" /></td><td>95 - 100</td></tr></table>': layer_MSPioneer_6,'Superficie Total<br /><table><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_0500.png" /></td><td>0 - 50</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_501001.png" /></td><td>50 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_1002502.png" /></td><td>100 - 250</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_2505003.png" /></td><td>250 - 500</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_5007504.png" /></td><td>500 - 750</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_75010005.png" /></td><td>750 - 1000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_100025006.png" /></td><td>1000 - 2500</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_250050007.png" /></td><td>2500 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_5000100008.png" /></td><td>5000 - 10000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_5_10000520009.png" /></td><td>10000 - 52000</td></tr></table>': layer_SuperficieTotal_5,'Diferencia VS Líder<br /><table><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_6450ha0.png" /></td><td>>6450 ha</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_645035001.png" /></td><td>-6450 - -3500</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_350020002.png" /></td><td>-3500 - -2000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_200015003.png" /></td><td>-2000 - -1500</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_150010004.png" /></td><td>-1500 - -1000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_10007505.png" /></td><td>-1000 - -750</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_7505006.png" /></td><td>-750 - -500</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_5002507.png" /></td><td>-500 - -250</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_2501008.png" /></td><td>-250 - -100</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaVSLder_4_10009.png" /></td><td>-100 - 0</td></tr></table>': layer_DiferenciaVSLder_4,'Diferencia con Total Superficie<br /><table><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_50000400000.png" /></td><td>-50000 - -40000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_40000300001.png" /></td><td>-40000 - -30000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_30000200002.png" /></td><td>-30000 - -20000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_20000100003.png" /></td><td>-20000 - -10000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_1000050004.png" /></td><td>-10000 - -5000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_500025005.png" /></td><td>-5000 - -2500</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_250010006.png" /></td><td>-2500 - -1000</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_10005007.png" /></td><td>-1000 - -500</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_5001008.png" /></td><td>-500 - -100</td></tr><tr><td style="text-align: center;"><img src="legend/DiferenciaconTotalSuperficie_3_10009.png" /></td><td>-100 - 0</td></tr></table>': layer_DiferenciaconTotalSuperficie_3,'Superficie Total<br /><table><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_0500.png" /></td><td>0 - 50</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_501001.png" /></td><td>50 - 100</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_1002502.png" /></td><td>100 - 250</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_2505003.png" /></td><td>250 - 500</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_5007504.png" /></td><td>500 - 750</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_75010005.png" /></td><td>750 - 1000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_100025006.png" /></td><td>1000 - 2500</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_250050007.png" /></td><td>2500 - 5000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_5000100008.png" /></td><td>5000 - 10000</td></tr><tr><td style="text-align: center;"><img src="legend/SuperficieTotal_2_10000520009.png" /></td><td>10000 - 52000</td></tr></table>': layer_SuperficieTotal_2,'Lider Mercado<br /><table><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Agropro0.png" /></td><td>Agropro</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Barato1.png" /></td><td>Barato</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Cargill2.png" /></td><td>Cargill</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Corteva3.png" /></td><td>Corteva</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Fitó4.png" /></td><td>Fitó</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Koipesol5.png" /></td><td>Koipesol</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Lidea6.png" /></td><td>Lidea</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Limagrain7.png" /></td><td>Limagrain</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_MasSeed8.png" /></td><td>Mas Seed</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Mirasol9.png" /></td><td>Mirasol</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Pioneer10.png" /></td><td>Pioneer</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Ragt11.png" /></td><td>Ragt</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_RAGT12.png" /></td><td>RAGT</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Strube13.png" /></td><td>Strube</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Syngenta14.png" /></td><td>Syngenta</td></tr><tr><td style="text-align: center;"><img src="legend/LiderMercado_1_Otros15.png" /></td><td>Otros</td></tr></table>': layer_LiderMercado_1,"Google Road": layer_GoogleRoad_0,}).addTo(map);
         setBounds();
-        var i = 0;
-        layer_MSPioneer_6.eachLayer(function(layer) {
-            var context = {
-                feature: layer.feature,
-                variables: {}
-            };
-            layer.bindTooltip((exp_label_MSPioneer_6_eval_expression(context) !== null?String('<div style="color: #323232; font-size: 10pt; font-family: \'Open Sans\', sans-serif;">' + exp_label_MSPioneer_6_eval_expression(context)) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_MSPioneer_6'});
-            labels.push(layer);
-            totalMarkers += 1;
-              layer.added = true;
-              addLabel(layer, i);
-              i++;
-        });
         resetLabels([layer_LiderMercado_1,layer_SuperficieTotal_2,layer_DiferenciaconTotalSuperficie_3,layer_DiferenciaVSLder_4,layer_SuperficieTotal_5,layer_MSPioneer_6]);
         map.on("zoomend", function(){
             resetLabels([layer_LiderMercado_1,layer_SuperficieTotal_2,layer_DiferenciaconTotalSuperficie_3,layer_DiferenciaVSLder_4,layer_SuperficieTotal_5,layer_MSPioneer_6]);
